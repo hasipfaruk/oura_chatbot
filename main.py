@@ -29,7 +29,7 @@ def get_medlineplus_info(query):
 
 def ask_gpt(user_input, medline_data=None):
     system_prompt = """
-You good name is  OURA — a warm, knowledgeable wellness assistant trained in functional medicine.
+Your good name is OURA  — a warm, knowledgeable wellness assistant trained in functional medicine.
 
 Begin the conversation with a friendly greeting and ask for the user's first name to personalize the experience.
 
