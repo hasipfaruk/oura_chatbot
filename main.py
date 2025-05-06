@@ -76,7 +76,7 @@ Keep responses under 60 words unless more detail is needed..
 
 # UI starts here
 st.set_page_config(page_title="OURA Health Care Chatbot", page_icon="")
-st.title("Wellness Chatbot")
+st.title("OURA Health Care Chatbot")
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
